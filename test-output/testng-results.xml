@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="69906" started-at="2019-09-29T13:00:10 IST" finished-at="2019-09-29T13:01:20 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="69906" started-at="2019-09-29T13:00:10 IST" finished-at="2019-09-29T13:01:20 IST">
+      <class name="testcases.TC001_LoginLogout">
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.TC001_LoginLogout@707e36]" name="setData" is-config="true" duration-ms="34" started-at="2019-09-29T13:00:10 IST" finished-at="2019-09-29T13:00:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="startApp(java.lang.String)[pri:0, instance:testcases.TC001_LoginLogout@707e36]" name="startApp" is-config="true" duration-ms="12510" started-at="2019-09-29T13:00:11 IST" finished-at="2019-09-29T13:00:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/control/main]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="loginTestcase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC001_LoginLogout@707e36]" name="loginTestcase" duration-ms="13254" started-at="2019-09-29T13:00:24 IST" data-provider="fetchData" finished-at="2019-09-29T13:00:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hcl]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[vicky]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[N]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestcase -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:testcases.TC001_LoginLogout@707e36]" name="closeApp" is-config="true" duration-ms="4121" started-at="2019-09-29T13:00:37 IST" finished-at="2019-09-29T13:00:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="startApp(java.lang.String)[pri:0, instance:testcases.TC001_LoginLogout@707e36]" name="startApp" is-config="true" duration-ms="12563" started-at="2019-09-29T13:00:41 IST" finished-at="2019-09-29T13:00:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/control/main]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="loginTestcase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC001_LoginLogout@707e36]" name="loginTestcase" duration-ms="22456" started-at="2019-09-29T13:00:54 IST" data-provider="fetchData" finished-at="2019-09-29T13:01:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TL]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[vignesh]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sn]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestcase -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:testcases.TC001_LoginLogout@707e36]" name="closeApp" is-config="true" duration-ms="4123" started-at="2019-09-29T13:01:16 IST" finished-at="2019-09-29T13:01:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testcases.TC001_LoginLogout -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
